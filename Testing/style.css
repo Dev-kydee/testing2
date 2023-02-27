@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 249, 249);
+}
+
+body>section {
+    width: 80vw;
+    height: 100%;
+    margin-inline: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: white;
+    box-shadow: 0px 0px 1rem black;
+    border-radius: 1rem 1rem 0 0;
+}
+
+body>section>header {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgb(120, 201, 230), transparent), url("./img/ex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+header>nav {
+    width: 80%;
+    height: 18vh;
+    background-color: rgb(219, 241, 241);
+    margin-inline: auto;
+}
+
+header>nav>.inner-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+header>nav>.outer-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.outer-nav>.outer-1>p {
+    position: relative;
+    bottom: 8px;
+    color: rgb(251, 164, 134);
+}
+
+.outer-nav>.outer-1>p>span {
+    color: rgb(165, 60, 3);
+}
+
+.outer-nav>.outer-2>a,
+a:hover {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0.5rem;
+
+}
+
+a:hover {
+    color: burlywood;
+}
+
+.outer-nav>.outer-1>.fa-m:first-child {
+    position: relative;
+    left: 10px;
+    color: darksalmon;
+
+
+}
+
+.outer-nav>.outer-1>.fa-m {
+    font-weight: 1rem bolder;
+    color: rgb(189, 116, 26);
+}
+
+header>.header-1 {
+    width: 75vw;
+    height: 40vh;
+    margin-inline: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+header>.header-1>h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white
+}
+
+header>.header-1>.header-last {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: auto;
+
+}
+
+header>.header-1>.header-last>div {
+    position: relative;
+    top: 80px;
+    background-color: aliceblue;
+
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+header>.header-1>.header-last>button {
+    height: 3rem;
+    width: 5.5rem;
+    position: relative;
+    top: 80px;
+    background-color: rgb(244, 58, 12);
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+section>main {
+    width: 100%;
+    height: 80vh;
+    margin-inline: auto;
+    padding: 2rem;
+    background-color: rgb(241, 250, 250);
+}
+
+section>main>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+section>main>hr {
+    width: 60px;
+    height: 5px;
+    background-color: coral;
+    position: relative;
+    left: 45%;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.icons>div>h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+main>.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+}
+
+main>.icons>div {
+    padding: 1rem;
+    color: rgb(9, 9, 9);
+}
+
+.icons>div:hover {
+    background-color: rgb(239, 167, 141);
+}
+
+main>.icons>div>.fas {
+    color: aliceblue;
+}
+
+section>.article-1 {
+    width: 100%;
+    height: 25vh;
+    margin-inline: auto;
+    padding: 2rem;
+    background-color: darkgray;
+}
+
+section>.article-1>.boxing {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.article-1>.boxing>div {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.article-1>.boxing>div>h3 {
+    color: darkorange;
+}
+
+.article-1>.boxing>div>p {
+    color: rgb(46, 43, 43);
+}
+
+section>.article-2 {
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(to right, rgb(208, 219, 223), transparent), url("./img/ex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin-inline: auto;
+}
+
+section>.article-2>h1 {
+    font-size: 2rem;
+    word-spacing: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section>.article-2>hr {
+    width: 60px;
+    height: 5px;
+    background-color: rgb(226, 175, 44);
+    position: relative;
+    left: 10px;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+section>.article-2>.max>p {
+    padding: 1rem;
+    position: relative;
+    top: 2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article-2>.max>p>.fas {
+    background-color: rgb(245, 170, 66);
+    color: aliceblue;
+}
+
+section>.article-3 {
+    width: 100%;
+    height: 90vh;
+    margin-inline: auto;
+    padding: 2rem;
+    background-color: white;
+}
+
+section>.article-3>h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section>.article-3>hr {
+    width: 60px;
+    height: 5px;
+    background-color: coral;
+    color: coral;
+    position: relative;
+    left: 47%;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+section>.article-3>.rev {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+}
+
+section>.article-3>.rev>div {
+    background-color: rgb(238, 240, 235);
+    padding: 2rem;
+}
+
+section>.article-3>.rev>div>.fas {
+    color: rgb(236, 160, 133);
+}
+
+section>.article-3>.rev-img {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+    padding: 3rem;
+}
+
+.article-3>.rev-img>div>.fas {
+    position: relative;
+    padding: 0.8rem;
+    margin: auto;
+    left: 30px;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid rgb(237, 148, 116);
+    border-radius: 100%;
+    color: rgb(217, 245, 245);
+    background-color: rgb(18, 18, 18);
+}
+.article-3>.rev-img>div>h2{
+   color: rgb(45, 36, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article-3>.rev-img>div>p{
+    color: rgb(175, 182, 182);
+}
+section>.article-4{
+    width: 100%;
+    height: 90vh;
+    margin-inline: auto;
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+justify-content:space-between ;
+gap: 2rem;
+}
+.img{
+ background-image: url("./img/Map.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.article-4>.first,.second{
+    background-color: whitesmoke;
+    height: 80vh;
+}
+.first>h1{
+    padding: 1rem;
+}
+.second>h1{
+    padding: 1rem;
+}
+.first>p{
+    padding: 1rem;
+    position: relative;
+    bottom: 20px;
+}
+.second>p{
+    padding: 1rem;
+    position: relative;
+    bottom: 20px;
+}
+.article-4>.first>.fas{
+    padding: 0.5rem;
+    
+}
+.article-4>.second>.fas{
+    padding: 0.5rem;
+    
+}
+.article-4>.first>.fa-phone{
+    background-color: rgb(232, 163, 61);
+    color: aliceblue;
+    margin: auto;
+    position: relative;
+    left: 10px;
+}
+.article-4>.second>.fa-phone{
+    background-color: rgb(232, 163, 61);
+    color: rgb(243, 245, 246);
+    margin: auto;
+    position: relative;
+    left: 10px;
+}
+section>.article-last{
+    width: 100%;
+    height: 70vh;
+    margin-inline: auto;
+    background-color: rgb(74, 74, 74);
+    text-align: center;
+}
+
+.article-last>.last{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 2rem;
+    margin-inline: auto;
+}
+.article-last>p {
+    color: aliceblue;
+    position: relative;
+    top: 5px;
+    margin-left: 13px;
+}
+.article-last>.fas{
+    position: relative;
+    top: 15px;
+    color: aliceblue;
+}
+.article-last>.last>.fas{
+    font-size: 3rem;
+    position: relative;
+    top: 10px;
+}
+.article-last>.fa-m:first-child{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+
+.article-last>.last > a{
+    font-size: 1rem;
+    /* padding: 2rem; */
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.article-last>.last-icon{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 2rem;
+    margin-inline: auto;
+}
+.article-last>.last-icon>.fab{
+    color: aliceblue;
+}
+.article-last>hr{
+    position: relative;
+    top: 30%;
+}
+.article-last>footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.article-last>footer>p{
+    color: aliceblue;
+    position: relative;
+    top: 130px;
+
+}
+.article-last>footer>span{
+    color: aliceblue;
+    position: relative;
+    top: 130px;
+    text-transform: capitalize;
+}
+section>.end{
+    width: 100%;
+    height: 20vh;
+    margin-inline: auto;
+    padding: 3rem;
+    background-color: white;
+text-align: center;
+}
+.end>h1{
+    font-size: 4rem;
+    text-align: center;
+   text-transform: lowercase;
+   font-style: italic;
+   color: rgb(220, 175, 26);
+   font-weight: bold;
+}
